@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form class="form">
+  <h2>Student Registration</h2>
+
+  <label>Name</label>
+  <input type="text" required pattern="[A-Za-z ]{3,}">
+
+  <label>Email</label>
+  <input type="email" required>
+
+  <label>Age</label>
+  <input type="number" min="18" max="60" required>
+
+  <button type="submit">Register</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+.bank {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: auto;
+}
+
+button {
+  margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+  .bank {
+    width: 100%;
+  }
+}
